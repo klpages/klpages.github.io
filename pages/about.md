@@ -1,27 +1,21 @@
 ---
 layout: page
-title: about
+title: About
 tagline: 关于我 ~
 sitetime: display
 permalink: /about.html
 ---
 
-## #作者
+## #可乐klelee
+ 
+QQ: 1749931278  
+Email: <a href="mailto:klelee@outlook.com">klelee@outlook.com</a>  
+GitHub: <a href="https://github.com/klpages">klelee</a>  
+微博: <a href="https://weibo.com/5393411788/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1">可乐klelee</a>  
+知乎: <a href="https://www.zhihu.com/people/wei-kai-xin-jia-you">可乐</a>  
 
-你可以通过以下方式联系作者
 
-QQ: 1316341442
 
-Email: <a href="mailto:lk@atlinker.cn">lk@atlinker.cn</a>
 
-Github: [link9596](https://github.com/link9596)
 
-## #赞赏
 
-本主题使用免费，也是作者长期工作的结晶，如果你喜欢主题\~想支持作者，欢迎请我喝杯奶茶！~
-
-<center>扫下方付款二维码即可向作者赞赏!</center>
-
-![wechat](https://atlinker.cn/pay/wechat.png)
-
-![pay](https://atlinker.cn/pay/apay.png)
