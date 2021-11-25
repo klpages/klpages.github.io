@@ -1,18 +1,18 @@
 # Site settings
-title: Don Blog
-SEOTitle: Don 博客 | Don Blog
+title: klelee Blog
+SEOTitle: klelee 博客 | klelee Blog
 header-img: img/post-bg-desk.jpg
-email: donlee.chn@gmail.com
-description: "Every failure is leading towards success."
-keyword: "Don, Don Blog, Don的博客, App,Java"
-url: "http://don-lee.github.io"          # your host, for absolute URL
+email: klelee@outlook.com
+description: "镜子会带着你一起笑"
+keyword: "klelee, klelee Blog, archlinux, linux"
+url: "http://klpages.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/Don-Lee" # you code repository
+github_repo: "https://github.com/klpages" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "活着，就是为了折腾！"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-BY-gentle.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -20,7 +20,7 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 RSS: false
 # weibo_username:     qiubaiying
 #zhihu_username:     qiubaiying
-github_username:    Don-Lee
+github_username:    klpages
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
@@ -60,25 +60,25 @@ kramdown:
 # disqus_username: Don
 
 # Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 11d01677e80296ec0fbf                            #生成的clientID
-  clientSecret: 55573b0445cb13f625df36d7c39f5114b7334fdf    #生成的clientSecret
-  repo: don-lee.github.io    #仓库名称
-  owner: Don-Lee    #github用户名
-  admin: Don-Lee
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+# gitalk:
+#   enable: true    #是否开启Gitalk评论
+#   clientID: 11d01677e80296ec0fbf                            #生成的clientID
+#   clientSecret: 55573b0445cb13f625df36d7c39f5114b7334fdf    #生成的clientSecret
+#   repo: don-lee.github.io    #仓库名称
+#   owner: Don-Lee    #github用户名
+#   admin: Don-Lee
+#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
 # 统计
 
-# Analytics settings
-# Baidu Analytics
-ba_track_id: 97839ca38d49c89a8da1369420ae5af7
+# # Analytics settings
+# # Baidu Analytics
+# ba_track_id: 97839ca38d49c89a8da1369420ae5af7
 
-# Google Analytics
-ga_track_id: 'UA-142869458-1'            # Format: UA-xxxxxx-xx
-ga_domain: rjgc.cn               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+# # Google Analytics
+# ga_track_id: 'UA-142869458-1'            # Format: UA-xxxxxx-xx
+# ga_domain: rjgc.cn               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
@@ -100,11 +100,12 @@ service-worker: true
 friends: [
     {
         title: "GitHub",
-        href: "https://github.com/Don-Lee"
-    },{
-        title: "Markdown在线编辑器",
-        href: "http://rjgc.cn/markdown_editor.html"
-   }
+        href: "https://github.com/klpages"
+    }
+    #,{
+  #       title: "Markdown在线编辑器",
+  #       href: "http://rjgc.cn/markdown_editor.html"
+  #  }
    #,{
      #   title: "Apple",
      #   href: "https://apple.com"
