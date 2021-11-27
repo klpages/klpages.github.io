@@ -10,14 +10,14 @@ Archlinux yyds！全面的wiki，强大的AUR，值得拥有！
 
 首先通过安装介质启动到live环境。选第一个
 
-<img src="https://klelee.cn/2021/11/15/archlinux%E5%AE%89%E8%A3%85/images/archlinux_install_imgs/boot选项.png"/>
+<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/boot选项.png"/>
 会以root身份进入一个虚拟控制台中，默认的shell是zsh。
 
 ### 验证引导模式
 
 `ls /sys/firmware/efi/efivars` 如果结果显示了目录且没有报告错误，则系统是以 UEFI 模式引导的。
 
-<img src="./images/archlinux_install_imgs/启动方式确认.png">
+<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/启动方式确认.png">
 ### 连接到因特网
 
 #### 判断无线网卡是否被锁
@@ -96,19 +96,19 @@ root分区		剩余空间
 
 使用cfdisk工具分区 `cfdisk <install disk name >` 比如我的： `cfdisk /dev/sda` 。之后会进入如下界面，选择gpt分区表：
 
-<img src="./images/archlinux_install_imgs/分区表类型.png">
+<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/分区表类型.png">
 之后就开始正式分区了，首先EFI分区，点击new新建：
 
-<img src="./images/archlinux_install_imgs/新建分区new.png">
+<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/新建分区new.png">
 这里输入300M，之后回车，就回到上面的界面了。
 
-<img src="./images/archlinux_install_imgs/EFI分区300M.png">
+<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/EFI分区300M.png">
 在建立下一个分区之前，先对第一个EFI分区的类型做一个修改，选择type选项
 
-<img src="./images/archlinux_install_imgs/更改EFI分区类型.png">
+<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/更改EFI分区类型.png">
 重复之前的步骤，建立swap分区和root分区，完成之后如下图：
 
-<img src="./images/archlinux_install_imgs/分完区之后.png">
+<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/分完区之后.png">
 ### 格式化分区
 
 #### EFI分区格式化
@@ -296,7 +296,7 @@ vim /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
-![](./images/archlinux_install_imgs/sshd_config_p.png)
+![](https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/sshd_config_p.png)
 <img src="">
 #### 在其他端进行连接
 
