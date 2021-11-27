@@ -10,16 +10,14 @@ Archlinux yyds！全面的wiki，强大的AUR，值得拥有！
 
 首先通过安装介质启动到live环境。选第一个
 
-<img src="./images/archlinux_install_imgs/boot选项.png"/>
-
+<img src="https://github.com/klpages/klpages.github.io/tree/main/_posts/Linux/images/archlinux_install_imgs/boot选项.png"/>
 会以root身份进入一个虚拟控制台中，默认的shell是zsh。
 
 ### 验证引导模式
 
 `ls /sys/firmware/efi/efivars` 如果结果显示了目录且没有报告错误，则系统是以 UEFI 模式引导的。
 
-<img src="./images/archlinux_install_imgs/启动方式确认.png"/>
-
+<img src="./images/archlinux_install_imgs/启动方式确认.png">
 ### 连接到因特网
 
 #### 判断无线网卡是否被锁
@@ -60,7 +58,7 @@ password:输入密码
 ### 更新为国内镜像源
 
 `reflector --country China --age 72 --sort rat.e --protocol ave /etc/pacman.d/mirrorlist`
-
+<img src="">
 已将最新的镜像源更新为国内的，保存在/etc/pacman.d/mirrorlist目录下
 
 ### 更新系统时间
@@ -98,24 +96,19 @@ root分区		剩余空间
 
 使用cfdisk工具分区 `cfdisk <install disk name >` 比如我的： `cfdisk /dev/sda` 。之后会进入如下界面，选择gpt分区表：
 
-<img src="./images/archlinux_install_imgs/分区表类型.png"/>
-
+<img src="./images/archlinux_install_imgs/分区表类型.png">
 之后就开始正式分区了，首先EFI分区，点击new新建：
 
-<img src="./images/archlinux_install_imgs/新建分区new.png"/>
-
+<img src="./images/archlinux_install_imgs/新建分区new.png">
 这里输入300M，之后回车，就回到上面的界面了。
 
-<img src="./images/archlinux_install_imgs/EFI分区300M.png"/>
-
+<img src="./images/archlinux_install_imgs/EFI分区300M.png">
 在建立下一个分区之前，先对第一个EFI分区的类型做一个修改，选择type选项
 
-<img src="./images/archlinux_install_imgs/更改EFI分区类型.png"/>
-
+<img src="./images/archlinux_install_imgs/更改EFI分区类型.png">
 重复之前的步骤，建立swap分区和root分区，完成之后如下图：
 
-<img src="./images/archlinux_install_imgs/分完区之后.png"/>
-
+<img src="./images/archlinux_install_imgs/分完区之后.png">
 ### 格式化分区
 
 #### EFI分区格式化
@@ -303,8 +296,8 @@ vim /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
-<img src="./images/archlinux_install_imgs/sshd_config_p.png"/>
-
+![](./images/archlinux_install_imgs/sshd_config_p.png)
+<img src="">
 #### 在其他端进行连接
 
 ```
@@ -371,7 +364,7 @@ vim /etc/pacman.conf
 # 在最后添加
 [archlinuxcn]
 .Server = c.edu.cn/archlinuxcn/$arch   
-# 这是中科大的源，你也可以选择清华、阿里等，当我推荐中科大，因为我喜欢
+# 这是<img src="">中科大的源，你也可以选择清华、阿里等，当我推荐中科大，因为我喜欢
 ```
 
 然后更新GPG密钥
@@ -477,15 +470,15 @@ export XMODIFIERS="@im=fcitx"
 重启，这时候会看到系统托盘会有一个键盘的图标，我已经配置过了，这里显示的是sogou的图标
 
 ![].(/images/archlinux_install_imgs/fcitx.png)
-
+<img src="">
 右击那个图标，点击configure,在配置界面点加号
 
-<img src="./images/archlinux_install_imgs/fcitx_configure.png"/>
-
+![](/images/a.rchlinux_install_imgs/fcitx_configure.png)
+<img src="">
 去掉“只显示当前语言”的选项，拉倒最下面选择sogoupinyin，之后回到上面的页面，选择美式键盘，删掉即可
 
-<img src="./images/archlinux_install_imgs/fcitx_1.png"/>
-
+![](/.images/archlinux_install_imgs/fcitx_1.png)
+<img src="">
 ### 其他软件
 
 ```
@@ -495,10 +488,10 @@ yay -S baidunetdisk-electron google-chrome qv2ray
 
 更多软件可以去wiki寻找。
 
-[archlinux wiki](%E4%BD%93%E4%B8%AD%E6%96%87)
-
-[List of applications](%E4%BD%93%E4%B8%AD%E6%96%87)
-
+[arc.hlinux wiki](%E4%BD%93%E4%B8%AD%E6%96%87))
+<img src="">
+[List of a.pplications](%E4%BD%93%E4%B8%AD%E6%96%87))
+<img src="">
 ### 清理缓存
 
 ```
