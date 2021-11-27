@@ -10,7 +10,7 @@ Archlinux yyds！全面的wiki，强大的AUR，值得拥有！
 
 首先通过安装介质启动到live环境。选第一个
 
-<img src="https://github.com/klpages/klpages.github.io/tree/main/_posts/Linux/images/archlinux_install_imgs/boot选项.png"/>
+<img src="https://klelee.cn/2021/11/15/archlinux%E5%AE%89%E8%A3%85/images/archlinux_install_imgs/boot选项.png"/>
 会以root身份进入一个虚拟控制台中，默认的shell是zsh。
 
 ### 验证引导模式
