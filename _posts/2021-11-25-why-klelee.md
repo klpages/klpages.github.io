@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why is klelee?
+categories: life
 tags: 
     - klelee
     - 邮箱测评
