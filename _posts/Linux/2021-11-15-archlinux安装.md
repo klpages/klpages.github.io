@@ -1,6 +1,7 @@
 ---
 title: ArchLinux安装
 date: 2021-11-15 19:00:00
+categories: Linux
 tags: 
     - ArchLinux
     - Linux
