@@ -1,7 +1,7 @@
 # Site settings
 title: klelee Blog
 SEOTitle: klelee 博客 | klelee Blog
-header-img: "https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/post-bg-desk.jpg"
+header-img: img/post-bg-desk.jpg
 email: klelee@outlook.com
 description: "镜子会带着你一起笑"
 keyword: "klelee, klelee Blog, archlinux, linux"
