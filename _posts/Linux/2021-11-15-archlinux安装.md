@@ -10,14 +10,15 @@ Archlinux yyds！全面的wiki，强大的AUR，值得拥有！
 
 首先通过安装介质启动到live环境。选第一个
 
-<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/boot选项.jpg"/>
+![boot选项](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/boot%E9%80%89%E9%A1%B9.jpg)
+
 会以root身份进入一个虚拟控制台中，默认的shell是zsh。
 
 ### 验证引导模式
 
 `ls /sys/firmware/efi/efivars` 如果结果显示了目录且没有报告错误，则系统是以 UEFI 模式引导的。
 
-<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/启动方式确认.jpg">
+![启动方式确认](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/%E5%90%AF%E5%8A%A8%E6%96%B9%E5%BC%8F%E7%A1%AE%E8%AE%A4.jpg)
 ### 连接到因特网
 
 #### 判断无线网卡是否被锁
@@ -58,7 +59,6 @@ password:输入密码
 ### 更新为国内镜像源
 
 `reflector --country China --age 72 --sort rat.e --protocol ave /etc/pacman.d/mirrorlist`
-<img src="">
 已将最新的镜像源更新为国内的，保存在/etc/pacman.d/mirrorlist目录下
 
 ### 更新系统时间
@@ -96,19 +96,19 @@ root分区		剩余空间
 
 使用cfdisk工具分区 `cfdisk <install disk name >` 比如我的： `cfdisk /dev/sda` 。之后会进入如下界面，选择gpt分区表：
 
-<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/分区表类型.jpg">
+![分区表类型](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/%E5%88%86%E5%8C%BA%E8%A1%A8%E7%B1%BB%E5%9E%8B.jpg)
 之后就开始正式分区了，首先EFI分区，点击new新建：
 
-<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/新建分区new.jpg">
+![新建分区new](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/%E6%96%B0%E5%BB%BA%E5%88%86%E5%8C%BAnew.jpg)
 这里输入300M，之后回车，就回到上面的界面了。
 
-<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/EFI分区300M.jpg">
+![EFI分区300M](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/EFI%E5%88%86%E5%8C%BA300M.jpg)
 在建立下一个分区之前，先对第一个EFI分区的类型做一个修改，选择type选项
 
-<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/更改EFI分区类型.jpg">
+![更改EFI分区类型](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/%E6%9B%B4%E6%94%B9EFI%E5%88%86%E5%8C%BA%E7%B1%BB%E5%9E%8B.jpg)
 重复之前的步骤，建立swap分区和root分区，完成之后如下图：
 
-<img src="https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/分完区之后.jpg">
+![分完区之后](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/%E5%88%86%E5%AE%8C%E5%8C%BA%E4%B9%8B%E5%90%8E.jpg)
 ### 格式化分区
 
 #### EFI分区格式化
@@ -296,8 +296,8 @@ vim /etc/ssh/sshd_config
 PermitRootLogin yes
 ```
 
-![](https://github.com/klpages/klpages.github.io/blob/main/_posts/Linux/images/archlinux_install_imgs/sshd_config_p.jpg)
-<img src="">
+![sshd_config_p](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/sshd_config_p.jpg)
+
 #### 在其他端进行连接
 
 ```
@@ -469,16 +469,14 @@ export XMODIFIERS="@im=fcitx"
 
 重启，这时候会看到系统托盘会有一个键盘的图标，我已经配置过了，这里显示的是sogou的图标
 
-![].(/images/archlinux_install_imgs/fcitx.jpg)
-<img src="">
+![fcitx](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/fcitx.jpg)
+
 右击那个图标，点击configure,在配置界面点加号
 
-![](/images/a.rchlinux_install_imgs/fcitx_configure.jpg)
-<img src="">
+![fcitx_configure](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/fcitx_configure.jpg)
 去掉“只显示当前语言”的选项，拉倒最下面选择sogoupinyin，之后回到上面的页面，选择美式键盘，删掉即可
 
-![](/.images/archlinux_install_imgs/fcitx_1.jpg)
-<img src="">
+![fcitx](https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/fcitx.jpg)
 ### 其他软件
 
 ```
@@ -488,10 +486,9 @@ yay -S baidunetdisk-electron google-chrome qv2ray
 
 更多软件可以去wiki寻找。
 
-[arc.hlinux wiki](%E4%BD%93%E4%B8%AD%E6%96%87))
-<img src="">
-[List of a.pplications](%E4%BD%93%E4%B8%AD%E6%96%87))
-<img src="">
+[arc.hlinux wiki](%E4%BD%93%E4%B8%AD%E6%96%87)
+[List of a.pplications](%E4%BD%93%E4%B8%AD%E6%96%87)
+
 ### 清理缓存
 
 ```
