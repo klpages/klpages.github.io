@@ -76,7 +76,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/favicon.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "klelee, klpages"
@@ -233,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: https://klpages-imgs.oss-cn-qingdao.aliyuncs.com/img/about-BY-gentle.png
 
 
 # Table Of Contents in the Sidebar
